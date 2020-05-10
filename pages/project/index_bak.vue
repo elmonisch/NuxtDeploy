@@ -22,35 +22,83 @@
     </nav>
 
     <div class="container my-12 mx-auto px-4 md:px-12">
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-                  
-                <span class="about-content"><h2>Hi, my name is Hasif Zulkifli. My software journey started when I got 4 failed in electrical engineering 
-                    courses plus 6 months extend year. I used to be at the peak but sometimes thunderstorm just hated me out of nowhere.
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-                    <div class="whitespace"></div>
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-                    I believe in passion and hardwork. This is where my journey started to look great again and paid off for what I started during the extend year.
-                    Luckily, I got tons of free and paid materials that can be easily accessed with a single click.
+            <!-- Article -->
+            <div class="overflow-hidden rounded-lg shadow-lg">
 
-                    <div class="whitespace"></div>
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="/img/ms1.jpg">
+                    <h2 class="proj text-center">Microservices Architecture</h2>
+                </a>
 
-                    I dont know why I told you this, but maybe because this is life :)
-                    </h2></span>
+            </div>
+            
+            <!-- END Article -->
 
         </div>
-    </div>
+        <!-- END Column -->
 
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <div class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="/img/web1.jpg">
+                    <h2 class="proj text-center">Web Development</h2>
+                </a>
+
+            </div>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <div class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="/img/ds.jpg">
+                    <h2 class="proj text-center">Data Science </h2>
+                </a>
+
+            </div>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        
+
+        
+    
+    </div>
+    </div>
     
   </div>
 </template>
 
-<script>
-export default {
- 
-}
-</script>
-
 <style>
+.proj {
+    font-size: 18px;
+    color: #000;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 6%;
+}
+
 * {
       box-sizing: border-box;
 }

@@ -1,56 +1,74 @@
 <template>
   <div class="containers">
-    <nav>
-          <input type="checkbox" id="nav" class="hidden">
-          <label for="nav" class="nav-btn">
-                <i></i>
-                <i></i>
-                <i></i>
-          </label>
-          <div class="logo">
-                <nuxt-link to="/">HelloHasif</nuxt-link>
-          </div>
-          <div class="nav-wrapper">
-                <ul>
-                      <li><nuxt-link to="/">Home</nuxt-link></li>
-                      <li><nuxt-link to="/about">About</nuxt-link></li>
-                      <li><nuxt-link to="/project">Projects</nuxt-link></li>
-                      <li><nuxt-link to="/blog">Blogs</nuxt-link></li>
-                      <li><nuxt-link to="/contact">Contact</nuxt-link></li>
-                </ul>
-          </div>
-    </nav>
-
-    <div class="container my-12 mx-auto px-4 md:px-12">
-        <div class="flex flex-wrap -mx-1 lg:-mx-4">
-                  
-                <span class="about-content"><h2>Hi, my name is Hasif Zulkifli. My software journey started when I got 4 failed in electrical engineering 
-                    courses plus 6 months extend year. I used to be at the peak but sometimes thunderstorm just hated me out of nowhere.
-
-                    <div class="whitespace"></div>
-
-                    I believe in passion and hardwork. This is where my journey started to look great again and paid off for what I started during the extend year.
-                    Luckily, I got tons of free and paid materials that can be easily accessed with a single click.
-
-                    <div class="whitespace"></div>
-
-                    I dont know why I told you this, but maybe because this is life :)
-                    </h2></span>
-
-        </div>
+    <div class="navbar">
+          
+        <nav>
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+            </label>
+            <div class="logo">
+                    <nuxt-link to="/">HelloHasif</nuxt-link>
+            </div>
+            <div class="nav-wrapper">
+                    <ul>
+                        <li><nuxt-link to="/">Home</nuxt-link></li>
+                        <li><nuxt-link to="/about">About</nuxt-link></li>
+                        <li><nuxt-link to="/project">Projects</nuxt-link></li>
+                        <li><nuxt-link to="/blog">Blogs</nuxt-link></li>
+                        <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+                    </ul>
+            </div>
+        </nav>
     </div>
 
+    <div class="container my-12 mx-auto px-4 md:px-12">
+        <section class="m-2 font-sans leading-normal flex wrap-sec">
+            <div class="max-w-lg shadow-lg rounded overflow-hidden m-4 sm:flex ">
+                <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" style="background-image: url('/img/me-min1.jpg')">
+                </div>
+
+                 <!-- card-content -->
+                    <div class="px-6 py-4">
+                    <h2 class="mb-2 font-black" style="font-family: 'Raleway', sans-serif; font-size: 18px;">Contact</h2>
+                    <div class="box" style="margin-top: 16px;">
+                        <div class="icon">
+                        <ion-icon name="call"></ion-icon>
+                        <a href="#" class="icon-text">+6013 631 5331</a>
+                        </div>
+
+                        <div class="whitespace1"></div>
+
+                        <div class="icon-mail">
+                        <ion-icon name="mail"></ion-icon>
+                        <a href="#" class="icon-text">hasifzulkifli95@gmail.com</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+        
     
   </div>
 </template>
 
-<script>
-export default {
- 
-}
-</script>
-
 <style>
+.proj {
+    font-size: 18px;
+    color: #000;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 6%;
+}
+
 * {
       box-sizing: border-box;
 }

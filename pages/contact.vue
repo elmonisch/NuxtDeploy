@@ -12,6 +12,7 @@
             </div>
             <div class="nav-wrapper">
                     <ul>
+                        <li><nuxt-link to="/">Home</nuxt-link></li>
                         <li><nuxt-link to="/about">About</nuxt-link></li>
                         <li><nuxt-link to="/project">Projects</nuxt-link></li>
                         <li><nuxt-link to="/blog">Blogs</nuxt-link></li>
@@ -243,6 +244,10 @@ nav ul li a:hover {
 
   .nav-wrapper ul li:nth-child(4) a {
     transition-delay: 0.5s;
+  }
+
+  .nav-wrapper ul li:nth-child(5) a {
+    transition-delay: 0.6s;
   }
 
   .nav-wrapper ul li:not(:first-child) {
